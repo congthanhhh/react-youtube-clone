@@ -1,6 +1,6 @@
 import './Navbar.css';
 import menu_icon from '../../assets/menu.png';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/youtubelogo.png';
 import search_icon from '../../assets/search.png';
 import upload_icon from '../../assets/upload.png';
 import more_icon from '../../assets/more.png';
@@ -20,11 +20,12 @@ const Navbar = ({ setSidebar }) => {
                 />
                 <Link to="/">
                     <img className="logo" src={logo} alt="icon" />
-                </Link>
+                    Click here
+                </Link>{' '}
             </div>
             <div className="nav-middle flex-div">
                 <div className="search-box flex-div">
-                    <input type="text" placeholder="Search" />
+                    <input type="text" placeholder="Click logo to show all videos" />
                     <img src={search_icon} alt="icon" />
                 </div>
             </div>
