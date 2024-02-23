@@ -109,6 +109,124 @@ const PlayVideo = () => {
                         </div>
                     );
                 })}
+                {/* Commemt */}
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>
+                            Khúc này em không biết vì sao không lấy được api của youtube nữa nó báo (The request cannot
+                            be completed because you have exceeded), em cũng đã thử lấy một tài khoản google khác và vẫn
+                            không được
+                        </p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src="" alt="user" />
+                    <div className="">
+                        <h3>
+                            Marry <span>1 day ago</span>{' '}
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, autem?</p>
+                        <div className="comment-action">
+                            <img src={like} alt="like" />
+                            <span>55</span>
+                            <img src={dislike} alt="dislike" />
+                        </div>
+                    </div>
+                </div>
+                {/* ./Comment */}
             </div>
         </div>
     );
